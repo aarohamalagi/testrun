@@ -10,3 +10,7 @@ cover_data = read.csv("")
 sp.no = specnumber(cover_data)
 
 
+#Calculating species diversity 
+
+sp.div = diversity(cover_data, index = "simpson")
+
